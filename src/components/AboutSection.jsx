@@ -150,7 +150,7 @@ const AboutSection = () => {
                   <div className="text-xs sm:text-sm text-gray-custom">Articles</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-xl sm:text-2xl font-bold text-dark-green-400">4+</div>
+                  <div className="text-xl sm:text-2xl font-bold text-dark-green-400">3+</div>
                   <div className="text-xs sm:text-sm text-gray-custom">Years</div>
                 </div>
                 <div className="text-center">

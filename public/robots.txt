@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://daffahaidar.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow crawling of any admin or private areas (if they exist in the future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.well-known/
+
+# Allow crawling of important assets
+Allow: /images/
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.svg
+Allow: /*.webp

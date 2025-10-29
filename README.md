@@ -25,8 +25,8 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/daffhaidar/haidarwrites.git
-cd haidarwrites
+git clone https://github.com/daffhaidar/haidarwrite.git
+cd haidarwrite
 npm install
 ```
 

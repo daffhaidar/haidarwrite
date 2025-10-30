@@ -1,5 +1,67 @@
 // Blog posts data structure with real Medium articles
 export const blogPosts = [
+  // ========================================
+  // 🚀 TEMPLATE ARTIKEL BARU - TINGGAL UNCOMMENT & EDIT!
+  // ========================================
+  // Copy dari sini sampai komentar penutup, uncomment, dan edit sesuai artikel lo
+  {
+    id: 11, // Ganti dengan nomor berikutnya (cek artikel terakhir + 1)
+    title: "Web3 Marketing Strategy That Increased User Engagement by 300%", // Max 60 karakter
+    slug: "web3-marketing-strategy", // Huruf kecil, pakai dash (-)
+    excerpt: "How I helped a DeFi startup achieve 300% engagement growth through authentic storytelling and data-backed Web3 marketing.", // Max 200 karakter
+    content: "Explored how a data-driven Web3 marketing approach helped a DeFi startup grow community engagement by 300%.", // Paragraf pertama
+    publishedDate: "2025-10-30", // Format: YYYY-MM-DD (tanggal hari ini)
+    lastModified: "2025-10-30", // Sama dengan publishedDate untuk artikel baru
+    readTime: "5 min read", // Estimasi: jumlah kata ÷ 200 = menit
+    category: "Content Strategy", // Pilih: "Technical Writing", "Copywriting", atau "Industry Insights"
+    tags: ["Web3 Marketing", "DeFi", "Community Growth", "Content Strategy"], // 3-5 keywords relevan
+    featured: true, // true = tampil di homepage (max 3), false = tidak
+    image: "https://images.pexels.com/photos/6780789/pexels-photo-6780789.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop", // Cari di pexels.com, ukuran 800x400
+    author: {
+      name: "Daffa Haidar", // Jangan ganti
+      avatar: "/images/author-avatar.jpg", // Jangan ganti
+    },
+    seo: {
+      metaDescription: "How I helped a DeFi startup achieve 300% engagement growth through authentic storytelling and data-backed Web3 marketing.", // Untuk search results
+      keywords: ["Web3 Marketing", "DeFi", "Community Growth", "Content Strategy"], // 3-5 keywords untuk SEO
+    },
+    link: "https://www.linkedin.com/pulse/how-web3-marketing-strategy-increased-user-engagement-falah-8nv9c", // URL artikel lengkap (LinkedIn/Medium)
+  },
+  // ========================================
+  // 📝 CONTOH ARTIKEL YANG SUDAH DIISI
+  // ========================================
+  {
+    id: 12,
+    title: "Beyond BTC: 5 Cryptocurrencies Worth Watching in 2026",
+    slug: "5-Cryptocurrencies-Worth-in-2026",
+    excerpt: "Looking past Bitcoin: discover five crypto projects with promise for the next wave of growth.",
+    content: "In a market still dominated by Bitcoin, this article highlights five lesser-known cryptocurrencies with strong fundamentals, real-world use-cases, and growing ecosystems that are positioned to perform in 2026 and beyond.",
+    publishedDate: "2025-10-30",
+    lastModified: "2025-10-30",
+    readTime: "4 min read",
+    category: "Copywriting",
+    tags: ["Cryptocurrency", "Crypto Investing", "Altcoins", "Blockchain Fundamentals"],
+    featured: true,
+    image: "https://images.pexels.com/photos/6771613/pexels-photo-6771613.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
+    author: {
+      name: "Daffa Haidar",
+      avatar: "/images/author-avatar.jpg",
+    },
+    seo: {
+      metaDescription: "5 Cryptocurrencies Worth Watching in 2026",
+      keywords: ["Cryptocurrency", "Crypto Investing", "Altcoins", "Blockchain Fundamentals"],
+    },
+    link: "https://www.linkedin.com/pulse/beyond-btc-5-cryptocurrencies-worth-watching-2026-falah-tqr9c",
+  },
+  // ========================================
+  // 🎯 CARA PAKAI TEMPLATE:
+  // 1. Copy template di atas (yang ada /* */)
+  // 2. Paste di bawah komentar ini
+  // 3. Hapus /* dan */ (uncomment)
+  // 4. Edit semua nilai sesuai artikel lo
+  // 5. Ganti id dengan nomor berikutnya (sekarang: 11)
+  // 6. Save file - website otomatis reload!
+  // ========================================
   {
     id: 1,
     title: "Cloud Architecture Showcase: Two Patterns That Always Work",
@@ -25,26 +87,27 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Who Actually Profits from NFTs Today?",
-    slug: "who-profits-from-nfts-today",
-    excerpt: "An honest look at the current NFT landscape and who's really making money in this evolving digital asset space beyond the hype.",
-    content: "The NFT space has evolved dramatically since its peak hype. While headlines focus on million-dollar sales, the reality of who profits today is more nuanced...",
-    publishedDate: "2025-10-03",
-    lastModified: "2025-10-03",
-    readTime: "3 min read",
-    category: "Industry Insights",
-    tags: ["NFTs", "Blockchain", "Digital Assets", "Web3"],
+    title: "Can Crypto Really Create Financial Freedom in 2026?",
+    slug: "can-crypto-create-financial-freedom",
+    excerpt: "Crypto promised us freedom — but are we any closer to achieving it? Let’s explore what financial independence really means in Web3.",
+    content:
+      "Explores whether cryptocurrency can genuinely lead to financial freedom by 2026. The article breaks down the difference between profit-seeking and true ownership, analyzing how DeFi, staking, and tokenized income streams are reshaping the definition of wealth.",
+    publishedDate: "2025-10-30",
+    lastModified: "2025-10-30",
+    readTime: "5 min read",
+    category: "Content Strategy",
+    tags: ["Crypto", "Web3", "Financial Freedom", "DeFi"],
     featured: true,
-    image: "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
+    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",
       avatar: "/images/author-avatar.jpg",
     },
     seo: {
-      metaDescription: "Discover who's actually making money in the NFT space today and what the current market landscape looks like.",
-      keywords: ["NFTs", "blockchain", "digital assets", "web3 profits"],
+      metaDescription: "Can Crypto Really Create Financial Freedom in 2026?",
+      keywords: ["Crypto", "Web3", "Financial Freedom", "DeFi"],
     },
-    link: "https://www.linkedin.com/pulse/who-actually-profits-from-nftstoday-muhammad-daffa-haidar-falah-tjazc",
+    link: "https://www.linkedin.com/pulse/can-crypto-truly-bring-financial-freedom-2026-falah-vf32c",
   },
   {
     id: 3,
@@ -71,7 +134,7 @@ export const blogPosts = [
   },
   {
     id: 4,
-    title: "Blockchain & BTC: Understanding the Crypto Ecosystem",
+    title: "tes hahaahayuk",
     slug: "blockchain-btc-understanding-crypto-ecosystem",
     excerpt: "A comprehensive look at blockchain technology and Bitcoin's role in the evolving cryptocurrency landscape. Technical insights made accessible.",
     content: "The blockchain and cryptocurrency space continues to evolve rapidly. Understanding the fundamentals is crucial for anyone looking to navigate this complex ecosystem...",
@@ -80,7 +143,7 @@ export const blogPosts = [
     readTime: "5 min read",
     category: "Technical Writing",
     tags: ["Blockchain", "Bitcoin", "Cryptocurrency", "Technology"],
-    featured: false,
+    featured: true,
     image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",
@@ -103,7 +166,7 @@ export const blogPosts = [
     readTime: "4 min read",
     category: "Industry Insights",
     tags: ["Web3", "Marketing", "Community Building", "Strategy"],
-    featured: false,
+    featured: true,
     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",
@@ -126,7 +189,7 @@ export const blogPosts = [
     readTime: "6 min read",
     category: "Technical Writing",
     tags: ["Decentralization", "Technology", "Future Tech", "Innovation"],
-    featured: false,
+    featured: true,
     image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",

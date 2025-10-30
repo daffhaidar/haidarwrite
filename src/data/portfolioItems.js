@@ -1,5 +1,37 @@
 // Portfolio items data structure with professional placeholder content
 export const portfolioItems = [
+  // ========================================
+  // 🚀 TEMPLATE PORTFOLIO BARU - TINGGAL UNCOMMENT & EDIT!
+  // ========================================
+  // Copy dari sini sampai komentar penutup, uncomment, dan edit sesuai karya lo
+
+  {
+    id: 9, // Ganti dengan nomor berikutnya (cek portfolio terakhir + 1)
+    title: "Can Crypto Really Create Financial Freedom in 2026?", // Judul yang menarik
+    category: "Content Strategy", // Pilih: "Copywriting", "Technical Writing", "Content Strategy", atau "Thought Leadership"
+    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
+    description:
+      "Explores whether cryptocurrency can genuinely lead to financial freedom by 2026. The article breaks down the difference between profit-seeking and true ownership, analyzing how DeFi, staking, and tokenized income streams are reshaping the definition of wealth.", // Deskripsi detail untuk modal
+    excerpt: "Crypto promised us freedom — but are we any closer to achieving it? Let’s explore what financial independence really means in Web3.", // Ringkasan untuk card preview
+    link: "https://www.linkedin.com/pulse/can-crypto-truly-bring-financial-freedom-2026-falah-vf32c", // URL artikel lengkap (LinkedIn/Medium/GitHub)
+    tags: ["Crypto", "Web3", "Financial Freedom", "DeFi"], // 3-5 tags relevan
+    publishedDate: "2025-10-30", // Format: YYYY-MM-DD
+    readTime: "5 min read", // Estimasi baca atau "Case Study"
+  },
+
+  // ========================================
+  // 📝 CONTOH PORTFOLIO YANG SUDAH DIISI
+  // ========================================
+
+  // ========================================
+  // 🎯 CARA PAKAI TEMPLATE PORTFOLIO:
+  // 1. Copy template di atas (yang ada /* */)
+  // 2. Paste di bawah komentar ini
+  // 3. Hapus /* dan */ (uncomment)
+  // 4. Edit semua nilai sesuai karya lo
+  // 5. Ganti id dengan nomor berikutnya (sekarang: 7)
+  // 6. Save file - portfolio otomatis update!
+  // ========================================
   {
     id: 1,
     title: "Blockchain Awareness Campaign",
@@ -77,10 +109,37 @@ export const portfolioItems = [
     publishedDate: "2025-10-01",
     readTime: "1 min read",
   },
+
+  {
+    id: 7,
+    title: "Web3 Marketing Strategy That Increased User Engagement by 300%",
+    category: "Content Strategy",
+    image: "https://images.pexels.com/photos/6780789/pexels-photo-6780789.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    description:
+      "Explored how a data-driven Web3 marketing approach helped a DeFi startup grow community engagement by 300%. The campaign combined analytics insights, authentic storytelling, and on-chain reputation systems to build real user trust and retention.",
+    excerpt: "How I helped a DeFi startup achieve 300% engagement growth through authentic storytelling and data-backed Web3 marketing.",
+    link: "https://www.linkedin.com/pulse/how-web3-marketing-strategy-increased-user-engagement-falah-8nv9c",
+    tags: ["Web3 Marketing", "DeFi", "Community Growth", "Content Strategy"],
+    publishedDate: "2025-10-30",
+    readTime: "Case Study",
+  },
+
+  {
+    id: 8,
+    title: "Beyond BTC: 5 Cryptocurrencies Worth Watching in 2026",
+    category: "Copywriting",
+    image: "https://images.pexels.com/photos/6771613/pexels-photo-6771613.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    description: "In a market still dominated by Bitcoin, this article highlights five lesser-known cryptocurrencies with strong fundamentals, real-world use-cases, and growing ecosystems that are positioned to perform in 2026 and beyond.", // Deskripsi detail untuk modal
+    excerpt: "Looking past Bitcoin: discover five crypto projects with promise for the next wave of growth.",
+    link: "https://www.linkedin.com/pulse/beyond-btc-5-cryptocurrencies-worth-watching-2026-falah-tqr9c",
+    tags: ["Cryptocurrency", "Crypto Investing", "Altcoins", "Blockchain Fundamentals"],
+    publishedDate: "2025-10-30",
+    readTime: "5 min read",
+  },
 ];
 
 // Portfolio categories for filtering
-export const portfolioCategories = ["All", "Copywriting", "Technical Writing", "Content Strategy"];
+export const portfolioCategories = ["All", "Copywriting", "Technical Writing", "Content Strategy", "Thought Leadership"];
 
 // Portfolio statistics
 export const portfolioStats = {
@@ -89,5 +148,6 @@ export const portfolioStats = {
     Copywriting: portfolioItems.filter((item) => item.category === "Copywriting").length,
     "Technical Writing": portfolioItems.filter((item) => item.category === "Technical Writing").length,
     "Content Strategy": portfolioItems.filter((item) => item.category === "Content Strategy").length,
+    "Thought Leadership": portfolioItems.filter((item) => item.category === "Thought Leadership").length,
   },
 };

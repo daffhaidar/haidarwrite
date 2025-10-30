@@ -35,14 +35,18 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-dark/40" />
 
       {/* Content container */}
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20 sm:py-0">
+      <div className="relative z-10 w-full max-w-4xl mx-auto px-mobile text-center py-16 xs:py-20 sm:py-0">
         {/* Name with entrance animation */}
-        <h1 className={`text-responsive-4xl font-bold mb-4 sm:mb-6 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <h1 className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 xs:mb-4 sm:mb-6 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <span className="text-light block xs:inline">Daffa</span> <span className="text-dark-green-400 block xs:inline">Haidar</span>
         </h1>
 
         {/* Tagline with staggered animation */}
-        <p className={`text-responsive-lg text-gray-custom mb-6 sm:mb-8 font-light leading-mobile transition-all duration-1000 ease-out delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <p
+          className={`text-sm xs:text-base sm:text-lg md:text-xl text-gray-custom mb-3 xs:mb-4 sm:mb-6 font-light leading-relaxed transition-all duration-1000 ease-out delay-300 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
           <span className="block xs:inline">Storyteller</span>
           <span className="hidden xs:inline"> • </span>
           <span className="block xs:inline">Copywriter</span>
@@ -50,16 +54,26 @@ const HeroSection = () => {
           <span className="block xs:inline">Technical Writer</span>
         </p>
 
+        {/* Niche Specialization - Made more prominent */}
+        <div className={`mb-4 xs:mb-5 sm:mb-6 md:mb-8 px-2 xs:px-0 transition-all duration-1000 ease-out delay-400 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <p className="text-base xs:text-lg sm:text-xl md:text-2xl text-dark-green-400 font-semibold leading-tight mb-1 xs:mb-2">Specializing in Tech, Web3, and Cloud-based storytelling</p>
+          <p className="text-xs xs:text-sm sm:text-base text-dark-green-300/80 font-medium">Helping blockchain startups and tech companies communicate with clarity</p>
+        </div>
+
         {/* Subtitle with additional delay */}
-        <p className={`text-responsive-base text-light/80 mb-6 sm:mb-10 max-w-2xl mx-auto leading-mobile transition-all duration-1000 ease-out delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <p
+          className={`text-sm xs:text-base sm:text-lg text-light/80 mb-6 xs:mb-8 sm:mb-10 max-w-2xl mx-auto px-2 xs:px-0 leading-relaxed transition-all duration-1000 ease-out delay-500 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
           Crafting compelling narratives that connect, convert, and inspire action
         </p>
 
         {/* CTA Button with final animation */}
-        <div className={`mb-16 sm:mb-20 transition-all duration-1000 ease-out delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <div className={`mb-12 xs:mb-16 sm:mb-20 transition-all duration-1000 ease-out delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <button
             onClick={scrollToPortfolio}
-            className="group relative inline-flex items-center justify-center btn-touch text-base sm:text-lg font-semibold text-dark bg-dark-green-400 rounded-lg hover:bg-dark-green-300 focus:outline-none focus:ring-4 focus:ring-dark-green-400/50 transition-all duration-300 ease-out transform hover:scale-105 hover:shadow-lg hover:shadow-dark-green-400/25 touch-target"
+            className="group relative inline-flex items-center justify-center min-h-[48px] min-w-[160px] px-6 xs:px-8 py-3 xs:py-4 text-sm xs:text-base sm:text-lg font-semibold text-dark bg-dark-green-400 rounded-lg hover:bg-dark-green-300 focus:outline-none focus:ring-4 focus:ring-dark-green-400/50 transition-all duration-300 ease-out transform hover:scale-105 hover:shadow-lg hover:shadow-dark-green-400/25"
           >
             <span className="relative z-10">View My Work</span>
 

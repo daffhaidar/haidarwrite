@@ -45,14 +45,14 @@ const SocialLinks = ({ className = "", iconSize = "w-6 h-6" }) => {
   ];
 
   return (
-    <div className={`flex space-x-4 sm:space-x-6 ${className}`}>
+    <div className={`flex space-x-2 xs:space-x-3 sm:space-x-4 ${className}`}>
       {socialLinks.map((link) => (
         <a
           key={link.name}
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-custom hover:text-dark-green-400 transition-colors duration-200 group touch-target p-2 -m-2 rounded-lg hover:bg-dark-green-900/20"
+          className="text-gray-custom hover:text-dark-green-400 transition-colors duration-200 group min-h-[44px] min-w-[44px] flex items-center justify-center p-2 rounded-lg hover:bg-dark-green-900/20"
           aria-label={`Visit my ${link.name} profile`}
         >
           <span className="sr-only">{link.name}</span>

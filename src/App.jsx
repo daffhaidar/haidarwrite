@@ -5,13 +5,14 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import PortfolioSection from "./components/PortfolioSection";
 import BlogSection from "./components/BlogSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-dark text-light scroll-smooth-mobile">
+    <div className="min-h-screen bg-dark text-light scroll-smooth-mobile prevent-horizontal-scroll">
       {/* Navigation */}
       <Navbar />
 
@@ -25,6 +26,9 @@ function App() {
 
         {/* Blog Section */}
         <BlogSection />
+
+        {/* Testimonials Section */}
+        <TestimonialsSection />
 
         {/* About Section */}
         <AboutSection />

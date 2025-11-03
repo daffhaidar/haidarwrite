@@ -130,4 +130,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️from Daffa Haidar**
+**Made with ❤️from Muhammad Daffa Haidar Falah**

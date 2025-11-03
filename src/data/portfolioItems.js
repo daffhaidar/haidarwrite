@@ -6,17 +6,17 @@ export const portfolioItems = [
   // Copy dari sini sampai komentar penutup, uncomment, dan edit sesuai karya lo
 
   {
-    id: 9, // Ganti dengan nomor berikutnya (cek portfolio terakhir + 1)
-    title: "Can Crypto Really Create Financial Freedom in 2026?", // Judul yang menarik
+    id: 10, // Ganti dengan nomor berikutnya (cek portfolio terakhir + 1)
+    title: "From Airdrops to Advocacy: The New Era of Web3 User Growth", // Judul yang menarik
     category: "Content Strategy", // Pilih: "Copywriting", "Technical Writing", "Content Strategy", atau "Thought Leadership"
-    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
-    description:
-      "Explores whether cryptocurrency can genuinely lead to financial freedom by 2026. The article breaks down the difference between profit-seeking and true ownership, analyzing how DeFi, staking, and tokenized income streams are reshaping the definition of wealth.", // Deskripsi detail untuk modal
-    excerpt: "Crypto promised us freedom — but are we any closer to achieving it? Let’s explore what financial independence really means in Web3.", // Ringkasan untuk card preview
-    link: "https://www.linkedin.com/pulse/can-crypto-truly-bring-financial-freedom-2026-falah-vf32c", // URL artikel lengkap (LinkedIn/Medium/GitHub)
-    tags: ["Crypto", "Web3", "Web3 & Finance", "Narrative Insight"], // 3-5 tags relevan
-    publishedDate: "2025-10-30", // Format: YYYY-MM-DD
-    readTime: "5 min read", // Estimasi baca atau "Case Study"
+    image: "https://images.pexels.com/photos/6771120/pexels-photo-6771120.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
+    description: "I’ve been in Web3 long enough to see cycles — not just in prices, but in people. From the DeFi Summer of 2020 to the airdrop wars of 2024–2025, I’ve seen what greed, hope, and community really look like.", // Deskripsi detail untuk modal
+    excerpt:
+      "Airdrops can buy attention — but they can’t buy loyalty. In 2024–2025, Web3 entered an identity crisis where hype overshadowed trust. As projects like zkSync and Starknet reshaped the meta, one question emerged: what does real user growth mean in the next era of crypto?", // Ringkasan untuk card preview
+    link: "https://www.linkedin.com/pulse/from-airdrops-advocacy-new-era-web3-user-growth-falah-tvmsc", // URL artikel lengkap (LinkedIn/Medium/GitHub)
+    tags: ["Web3 Marketing", "Content Strategy", "Community Growth", "Copywriting"], // 3-5 tags relevan
+    publishedDate: "2025-11-03", // Format: YYYY-MM-DD
+    readTime: "4 min read", // Estimasi baca atau "Case Study"
   },
 
   // ========================================
@@ -135,6 +135,34 @@ export const portfolioItems = [
     tags: ["Cryptocurrency", "Crypto Trends", "Altcoins", "Audience Engagement"],
     publishedDate: "2025-10-30",
     readTime: "5 min read",
+  },
+
+  {
+    id: 9,
+    title: "Can Crypto Really Create Financial Freedom in 2026?",
+    category: "Content Strategy",
+    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
+    description:
+      "Explores whether cryptocurrency can genuinely lead to financial freedom by 2026. The article breaks down the difference between profit-seeking and true ownership, analyzing how DeFi, staking, and tokenized income streams are reshaping the definition of wealth.", // Deskripsi detail untuk modal
+    excerpt: "Crypto promised us freedom — but are we any closer to achieving it? Let’s explore what financial independence really means in Web3.", // Ringkasan untuk card preview
+    link: "https://www.linkedin.com/pulse/can-crypto-truly-bring-financial-freedom-2026-falah-vf32c", // URL artikel lengkap (LinkedIn/Medium/GitHub)
+    tags: ["Crypto", "Web3", "Web3 & Finance", "Narrative Insight"],
+    publishedDate: "2025-10-30",
+    readTime: "5 min read",
+  },
+
+  {
+    id: 10,
+    title: "The Psychology Behind Viral Web3 Campaigns",
+    category: "Content Strategy",
+    image: "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    description:
+      "An in-depth look at the psychological patterns and storytelling frameworks that drive viral success in Web3 marketing. Blending emotion, on-chain data, and user identity, this article reveals why every viral campaign isn’t luck — it’s designed behavior.",
+    excerpt: "Every viral Web3 campaign looks like magic — but behind the hype lies engineered psychology. Here’s how emotion, identity, and data create lasting user engagement.",
+    link: "https://www.linkedin.com/pulse/psychology-behind-viral-web3-campaigns-muhammad-daffa-haidar-falah-rdehc",
+    tags: ["Web3 Marketing", "Content Strategy", "Crypto Psychology", "Copywriting"],
+    publishedDate: "2025-11-03",
+    readTime: "4 min read",
   },
 ];
 

@@ -38,31 +38,31 @@ const AboutSection = () => {
     },
     {
       name: "Storytelling",
-      level: "Advanced",
+      level: "Expert",
       description: "Crafting compelling narratives that connect technology with human experiences",
       icon: "📖",
     },
     {
       name: "Cybersecurity Content",
-      level: "Expert",
+      level: "Advance",
       description: "Creating security-focused content based on hands-on professional experience",
       icon: "🔒",
     },
     {
       name: "Content Strategy",
-      level: "Advanced",
+      level: "Expert",
       description: "Developing comprehensive content strategies that align with business goals",
       icon: "🎯",
     },
     {
       name: "Public Speaking",
-      level: "Intermediate",
+      level: "Advance",
       description: "Delivering engaging presentations and workshops to diverse audiences",
       icon: "🎤",
     },
     {
       name: "SEO Writing",
-      level: "Advanced",
+      level: "Expert",
       description: "Creating content optimized for search engines while maintaining readability",
       icon: "🔍",
     },
@@ -78,6 +78,7 @@ const AboutSection = () => {
     { name: "Git", category: "Version Control", color: "bg-cyan-600" },
     { name: "Grammarly", category: "Writing Tools", color: "bg-green-600" },
     { name: "VS Code", category: "Development", color: "bg-red-600" },
+    { name: "JavaScript", category: "Programming", color: "bg-yellow-600" },
   ];
 
   return (

@@ -6,17 +6,16 @@ export const portfolioItems = [
   // Copy dari sini sampai komentar penutup, uncomment, dan edit sesuai karya lo
 
   {
-    id: 10, // Ganti dengan nomor berikutnya (cek portfolio terakhir + 1)
-    title: "From Airdrops to Advocacy: The New Era of Web3 User Growth", // Judul yang menarik
+    id: 12, // Ganti dengan nomor berikutnya (cek portfolio terakhir + 1)
+    title: "Smart Tech, Dumb Text: When Innovation Outpaces Understanding", // Judul yang menarik
     category: "Content Strategy", // Pilih: "Copywriting", "Technical Writing", "Content Strategy", atau "Thought Leadership"
-    image: "https://images.pexels.com/photos/6771120/pexels-photo-6771120.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
-    description: "I’ve been in Web3 long enough to see cycles — not just in prices, but in people. From the DeFi Summer of 2020 to the airdrop wars of 2024–2025, I’ve seen what greed, hope, and community really look like.", // Deskripsi detail untuk modal
-    excerpt:
-      "Airdrops can buy attention — but they can’t buy loyalty. In 2024–2025, Web3 entered an identity crisis where hype overshadowed trust. As projects like zkSync and Starknet reshaped the meta, one question emerged: what does real user growth mean in the next era of crypto?", // Ringkasan untuk card preview
-    link: "https://www.linkedin.com/pulse/from-airdrops-advocacy-new-era-web3-user-growth-falah-tvmsc", // URL artikel lengkap (LinkedIn/Medium/GitHub)
-    tags: ["Web3 Marketing", "Content Strategy", "Community Growth", "Copywriting"], // 3-5 tags relevan
-    publishedDate: "2025-11-03", // Format: YYYY-MM-DD
-    readTime: "4 min read", // Estimasi baca atau "Case Study"
+    image: "https://images.pexels.com/photos/34578076/pexels-photo-34578076.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop", // Gambar 600x400 dari pexels.com
+    description: "From blockchain to basic grammar, why humanity’s biggest bottleneck isn’t technology — it’s thinking.", // Deskripsi detail untuk modal
+    excerpt: "From blockchain to basic grammar, why humanity’s next upgrade isn’t AI — it’s articulation.", // Ringkasan untuk card preview
+    link: "https://www.linkedin.com/pulse/smart-tech-dumb-text-when-innovation-outpaces-falah-sxuvc", // URL artikel lengkap (LinkedIn/Medium/GitHub)
+    tags: ["Web3", "Technology", "Philosophy", "Linguistics", "Blockchain", "Digital Literacy", "Culture", "Critical Thinking"], // 3-5 tags relevan
+    publishedDate: "2025-11-05", // Format: YYYY-MM-DD
+    readTime: "5 min read", // Estimasi baca atau "Case Study"
   },
 
   // ========================================
@@ -161,6 +160,20 @@ export const portfolioItems = [
     excerpt: "Every viral Web3 campaign looks like magic — but behind the hype lies engineered psychology. Here’s how emotion, identity, and data create lasting user engagement.",
     link: "https://www.linkedin.com/pulse/psychology-behind-viral-web3-campaigns-muhammad-daffa-haidar-falah-rdehc",
     tags: ["Web3 Marketing", "Content Strategy", "Crypto Psychology", "Copywriting"],
+    publishedDate: "2025-11-03",
+    readTime: "4 min read",
+  },
+
+  {
+    id: 11,
+    title: "From Airdrops to Advocacy: The New Era of Web3 User Growth",
+    category: "Content Strategy",
+    image: "https://images.pexels.com/photos/6771120/pexels-photo-6771120.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    description: "I’ve been in Web3 long enough to see cycles — not just in prices, but in people. From the DeFi Summer of 2020 to the airdrop wars of 2024–2025, I’ve seen what greed, hope, and community really look like.",
+    excerpt:
+      "Airdrops can buy attention — but they can’t buy loyalty. In 2024–2025, Web3 entered an identity crisis where hype overshadowed trust. As projects like zkSync and Starknet reshaped the meta, one question emerged: what does real user growth mean in the next era of crypto?",
+    link: "https://www.linkedin.com/pulse/from-airdrops-advocacy-new-era-web3-user-growth-falah-tvmsc",
+    tags: ["Web3 Marketing", "Content Strategy", "Community Growth", "Copywriting"],
     publishedDate: "2025-11-03",
     readTime: "4 min read",
   },

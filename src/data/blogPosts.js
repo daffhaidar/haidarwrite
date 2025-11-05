@@ -6,15 +6,16 @@ export const blogPosts = [
   // Copy dari sini sampai komentar penutup, uncomment, dan edit sesuai artikel lo
   {
     id: 11, // Ganti dengan nomor berikutnya (cek artikel terakhir + 1)
-    title: "Web3 Marketing Strategy That Increased User Engagement by 300%", // Max 60 karakter
-    slug: "web3-marketing-strategy", // Huruf kecil, pakai dash (-)
-    excerpt: "How I helped a DeFi startup achieve 300% engagement growth through authentic storytelling and data-backed Web3 marketing.", // Max 200 karakter
-    content: "Explored how a data-driven Web3 marketing approach helped a DeFi startup grow community engagement by 300%.", // Paragraf pertama
-    publishedDate: "2025-10-30", // Format: YYYY-MM-DD (tanggal hari ini)
-    lastModified: "2025-10-30", // Sama dengan publishedDate untuk artikel baru
+    title: "The Psychology Behind Viral Web3 Campaigns", // Max 60 karakter
+    slug: "psychology-behind-viral-web3", // Huruf kecil, pakai dash (-)
+    excerpt: "Every viral Web3 campaign looks like magic — but behind the hype lies engineered psychology. Here’s how emotion, identity, and data create lasting user engagement.", // Max 200 karakter
+    content:
+      "An in-depth look at the psychological patterns and storytelling frameworks that drive viral success in Web3 marketing. Blending emotion, on-chain data, and user identity, this article reveals why every viral campaign isn’t luck — it’s designed behavior.", // Paragraf pertama
+    publishedDate: "2025-11-03", // Format: YYYY-MM-DD (tanggal hari ini)
+    lastModified: "2025-11-03", // Sama dengan publishedDate untuk artikel baru
     readTime: "5 min read", // Estimasi: jumlah kata ÷ 200 = menit
     category: "Content Strategy", // Pilih: "Technical Writing", "Copywriting", atau "Industry Insights"
-    tags: ["Web3 Marketing", "DeFi", "Community Growth", "Content Strategy"], // 3-5 keywords relevan
+    tags: ["Web3 Marketing", "Content Strategy", "Crypto Psychology", "Copywriting"], // 3-5 keywords relevan
     featured: true, // true = tampil di homepage (max 3), false = tidak
     image: "https://images.pexels.com/photos/6780789/pexels-photo-6780789.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop", // Cari di pexels.com, ukuran 800x400
     author: {
@@ -22,36 +23,36 @@ export const blogPosts = [
       avatar: "/images/author-avatar.jpg", // Jangan ganti
     },
     seo: {
-      metaDescription: "How I helped a DeFi startup achieve 300% engagement growth through authentic storytelling and data-backed Web3 marketing.", // Untuk search results
-      keywords: ["Web3 Marketing", "DeFi", "Community Growth", "Content Strategy"], // 3-5 keywords untuk SEO
+      metaDescription: "Every viral Web3 campaign looks like magic — but behind the hype lies engineered psychology. Here’s how emotion, identity, and data create lasting user engagement.", // Untuk search results
+      keywords: ["Web3 Marketing", "Content Strategy", "Crypto Psychology", "Copywriting"], // 3-5 keywords untuk SEO
     },
-    link: "https://www.linkedin.com/pulse/how-web3-marketing-strategy-increased-user-engagement-falah-8nv9c", // URL artikel lengkap (LinkedIn/Medium)
+    link: "https://www.linkedin.com/pulse/psychology-behind-viral-web3-campaigns-muhammad-daffa-haidar-falah-rdehc", // URL artikel lengkap (LinkedIn/Medium)
   },
   // ========================================
   // 📝 CONTOH ARTIKEL YANG SUDAH DIISI
   // ========================================
   {
     id: 12,
-    title: "Beyond BTC: 5 Cryptocurrencies Worth Watching in 2026",
-    slug: "5-Cryptocurrencies-Worth-in-2026",
-    excerpt: "Looking past Bitcoin: discover five crypto projects with promise for the next wave of growth.",
-    content: "In a market still dominated by Bitcoin, this article highlights five lesser-known cryptocurrencies with strong fundamentals, real-world use-cases, and growing ecosystems that are positioned to perform in 2026 and beyond.",
-    publishedDate: "2025-10-30",
-    lastModified: "2025-10-30",
-    readTime: "4 min read",
-    category: "Copywriting",
-    tags: ["Cryptocurrency", "Crypto Investing", "Altcoins", "Blockchain Fundamentals"],
+    title: "Smart Tech, Dumb Text: When Innovation Outpaces Understanding",
+    slug: "smart-tech-dump-text",
+    excerpt: "From blockchain to basic grammar, why humanity’s next upgrade isn’t AI — it’s articulation.",
+    content: "From blockchain to basic grammar, why humanity’s biggest bottleneck isn’t technology — it’s thinking.",
+    publishedDate: "2025-11-05",
+    lastModified: "2025-11-05",
+    readTime: "5 min read",
+    category: "Content Strategy",
+    tags: ["Web3", "Technology", "Philosophy", "Linguistics", "Blockchain", "Digital Literacy", "Culture", "Critical Thinking"],
     featured: true,
-    image: "https://images.pexels.com/photos/6771613/pexels-photo-6771613.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
+    image: "https://images.pexels.com/photos/34578076/pexels-photo-34578076.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",
       avatar: "/images/author-avatar.jpg",
     },
     seo: {
-      metaDescription: "5 Cryptocurrencies Worth Watching in 2026",
-      keywords: ["Cryptocurrency", "Crypto Investing", "Altcoins", "Blockchain Fundamentals"],
+      metaDescription: "Smart Tech, Dumb Text: When Innovation Outpaces Understanding",
+      keywords: ["Web3", "Technology", "Philosophy", "Linguistics", "Blockchain", "Digital Literacy", "Culture", "Critical Thinking"],
     },
-    link: "https://www.linkedin.com/pulse/beyond-btc-5-cryptocurrencies-worth-watching-2026-falah-tqr9c",
+    link: "https://www.linkedin.com/pulse/smart-tech-dumb-text-when-innovation-outpaces-falah-sxuvc",
   },
   // ========================================
   // 🎯 CARA PAKAI TEMPLATE:
@@ -87,27 +88,27 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Can Crypto Really Create Financial Freedom in 2026?",
-    slug: "can-crypto-create-financial-freedom",
-    excerpt: "Crypto promised us freedom — but are we any closer to achieving it? Let’s explore what financial independence really means in Web3.",
-    content:
-      "Explores whether cryptocurrency can genuinely lead to financial freedom by 2026. The article breaks down the difference between profit-seeking and true ownership, analyzing how DeFi, staking, and tokenized income streams are reshaping the definition of wealth.",
-    publishedDate: "2025-10-30",
-    lastModified: "2025-10-30",
-    readTime: "5 min read",
+    title: "From Airdrops to Advocacy: The New Era of Web3 User Growth",
+    slug: "from-airdrop-to-advocacy",
+    excerpt:
+      "Airdrops can buy attention — but they can’t buy loyalty. In 2024–2025, Web3 entered an identity crisis where hype overshadowed trust. As projects like zkSync and Starknet reshaped the meta, one question emerged: what does real user growth mean in the next era of crypto?",
+    content: "I’ve been in Web3 long enough to see cycles — not just in prices, but in people. From the DeFi Summer of 2020 to the airdrop wars of 2024–2025, I’ve seen what greed, hope, and community really look like.",
+    publishedDate: "2025-11-03",
+    lastModified: "2025-11-03",
+    readTime: "4 min read",
     category: "Content Strategy",
-    tags: ["Crypto", "Web3", "Financial Freedom", "DeFi"],
+    tags: ["Web3 Marketing", "Content Strategy", "Community Growth", "Copywriting"],
     featured: true,
-    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
+    image: "https://images.pexels.com/photos/6771120/pexels-photo-6771120.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop",
     author: {
       name: "Daffa Haidar",
       avatar: "/images/author-avatar.jpg",
     },
     seo: {
-      metaDescription: "Can Crypto Really Create Financial Freedom in 2026?",
-      keywords: ["Crypto", "Web3", "Financial Freedom", "DeFi"],
+      metaDescription: "From Airdrops to Advocacy: The New Era of Web3 User Growth",
+      keywords: ["Web3 Marketing", "Content Strategy", "Community Growth", "Copywriting"],
     },
-    link: "https://www.linkedin.com/pulse/can-crypto-truly-bring-financial-freedom-2026-falah-vf32c",
+    link: "https://www.linkedin.com/pulse/from-airdrops-advocacy-new-era-web3-user-growth-falah-tvmsc",
   },
   {
     id: 3,

@@ -128,7 +128,7 @@ const BlogCard = ({ post, formatDate }) => {
 
         {/* Read More Link */}
         <a
-          href={`https://medium.com/@daffahaidar1501/${post.slug}`} // External link to individual post
+          href={post.link} // Use the actual link from blog post data
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-dark-green-400 hover:text-dark-green-300 font-medium text-sm transition-colors duration-300 group-hover:translate-x-1 touch-target"
